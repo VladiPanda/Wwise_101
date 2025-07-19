@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{17D4C8DC-F95C-4CC2-A847-100D2CD582F2}",
+    "Language": "SFX",
+    "Hash": "{213721CD-396F-AA55-2F90-E34C5BA2340F}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "433698526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "fart_squirt_06 2.wav",
+      "CachePath": "BB/{BBD754D6-6BCC-F6C1-07F8-C551344AEE13}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2390793602",
+      "Name": "Fire_IceGem_Player",
+      "ObjectPath": "\\Events\\Default Work Unit\\Fire_IceGem_Player",
+      "GUID": "{91B6641D-B438-40E2-8E9E-168188CB5015}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5916875",
+      "DurationMax": "0.5916875",
+      "MediaRefs": [
+       {
+        "Id": "433698526"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7656BC7B-4C56-4E15-659A-134131B1CC14}"
+ }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A9C6DFF-BF75-40DC-9876-C028AB11446D}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5A9C6DFF-BF75-40DC-9876-C028AB11446D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="IceGem_Blast" ID="{8AB53C64-AF1D-4D7E-8C92-910C1464F460}" ShortID="1044860066">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{99063E19-9090-4273-BECD-915414041057}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE68BEBF-D00A-4505-A435-E626B929ED2D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="fart_squirt_06 2" ID="{252B4BDC-A611-4AE4-B5EB-2481E5B172FF}">
+							<Language>SFX</Language>
+							<AudioFile>fart_squirt_06 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="433698526"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="fart_squirt_06 2" ID="{252B4BDC-A611-4AE4-B5EB-2481E5B172FF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
