@@ -32,6 +32,27 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BE468F47-A806-4BC9-AB18-70AC5BDCA625}" ShortID="876014141">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.4">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F4725C42-A319-401E-B3CD-F0CF8B4D064B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem Drop" ID="{C4AB11AD-A776-48F6-838F-38D6C1EA05D1}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

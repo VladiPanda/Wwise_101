@@ -14,6 +14,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="IceGem_Blast" ID="{EB8CDAC4-9671-4550-A6FE-D24E6C6FBCEE}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>IceGem_Blast.wav</AudioFile>
 							<MediaIDList>
@@ -25,7 +28,14 @@
 						<ActiveSource Name="IceGem_Blast" ID="{EB8CDAC4-9671-4550-A6FE-D24E6C6FBCEE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Gem_Recharge" ID="{34FE7205-2BA0-400E-A7F4-2EC73BA118EA}" ShortID="1010098264">
+				<Sound Name="Gem_Recharge_Woosh" ID="{34FE7205-2BA0-400E-A7F4-2EC73BA118EA}" ShortID="1010098264">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>600</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93B302DD-5326-4F33-9D62-FDC483D375EE}"/>
@@ -36,6 +46,40 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="Gem_Recharge" ID="{8B75034D-944D-4974-BD12-0AD7A900C522}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.941419896225574"/>
+								<Property Name="FadeOutShape" Type="int16" Value="4"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.2970026376847"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Gem_Recharge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="3598058"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gem_Recharge" ID="{8B75034D-944D-4974-BD12-0AD7A900C522}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="em_Recharge_Magic" ID="{F39425C2-90D7-4DE4-A70A-D3833F0E5C6D}" ShortID="667941688">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{93B302DD-5326-4F33-9D62-FDC483D375EE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE981A36-EA14-4BAA-AF29-EED4FFF31398}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gem_Recharge" ID="{1FAB6B29-1124-4B2E-9414-D5885E47EA01}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.166132922863337"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.935590670861949"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="1.36112412240664"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Gem_Recharge.wav</AudioFile>
 							<MediaIDList>
@@ -44,7 +88,7 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Gem_Recharge" ID="{8B75034D-944D-4974-BD12-0AD7A900C522}" Platform="Linked"/>
+						<ActiveSource Name="Gem_Recharge" ID="{1FAB6B29-1124-4B2E-9414-D5885E47EA01}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
