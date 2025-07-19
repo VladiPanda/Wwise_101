@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Module 2",
+   "GUID": "{FCDCC97B-405B-4AED-90DA-0418B462DF34}",
+   "Generator": "2024.1.4.8780"
+  },
+  "CacheRoot": "../../../Wwise Fundamentals/Module 2/Wwise Project Module 2/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{B7DC1ED8-9206-4AA9-9A7A-2CD5A7E0B7B7}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../soundbanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{18C4D6A5-B57D-4A63-92D7-F332BEE8F420}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../soundbanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{1AB61270-A859-4C48-BA7B-66BBDF1AD185}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{4E557FDE-65F0-F91B-AC2C-F31C480E0A12}"
+ }
+}

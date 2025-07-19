@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2390793602	Fire_IceGem_Player			\Default Work Unit\Fire_IceGem_Player	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3598058	Gem_Recharge_Woosh	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 2\Wwise Project Module 2\.cache\F6\{F636B76F-85E5-5C9A-5E37-796BEC4F5BFB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem_Recharge_Woosh		124608
+	651969852	em_Recharge_Magic	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 2\Wwise Project Module 2\.cache\DA\{DAB970F8-C2F0-A743-C93D-EDD16BB14739}.wem		\Actor-Mixer Hierarchy\Default Work Unit\em_Recharge_Magic		147552
+	862955921	IceGem_Blast	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 2\Wwise Project Module 2\.cache\E5\{E5957BD1-9406-0421-5FC8-87CDD789D341}.wem		\Actor-Mixer Hierarchy\Default Work Unit\IceGem_Blast		286292
+
