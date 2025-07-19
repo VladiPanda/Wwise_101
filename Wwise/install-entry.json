@@ -1,0 +1,67 @@
+{
+    "bundle": {
+        "id": "wwise.2024_1_4_8780",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2024,
+            "major": 1,
+            "minor": "4",
+            "build": 8780
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "displayName": " 2024.1.4.8780",
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "P:\\Dropbox\\Dropbox\\SI2025\\Wwise_101\\Wwise",
+    "installType": "normal",
+    "parentId": null,
+    "installed": {
+        "groups": [
+            {
+                "id": "AuthoringPlatforms",
+                "valueId": "Win32"
+            },
+            {
+                "id": "AuthoringPlatforms",
+                "valueId": "x64"
+            },
+            {
+                "id": "AuthoringOS",
+                "valueId": "Windows"
+            },
+            {
+                "id": "SourceCodeLevel",
+                "valueId": "Level2"
+            },
+            {
+                "id": "SourceCodeLevel",
+                "valueId": "Level3"
+            },
+            {
+                "id": "Packages",
+                "valueId": "Authoring"
+            }
+        ],
+        "files": [
+            "Authoring.tar.xz",
+            "Authoring.x64.tar.xz",
+            "FilePackager.x64.tar.xz",
+            "Authoring.MacExcludes.x64.tar.xz",
+            "Authoring.Documentation.tar.xz"
+        ],
+        "date": 1752922528532
+    },
+    "children": [],
+    "unpackedFiles": []
+}

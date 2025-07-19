@@ -1,0 +1,2227 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$visible": true,
+                    "description": "The Wwise authoring application, a graphical user interface that centralizes all aspects of audio creation. The authoring application is required to edit Wwise projects and to generate SoundBanks.",
+                    "displayName": "Authoring",
+                    "eulaIds": [
+                        "Wwise",
+                        "VC19Redist"
+                    ],
+                    "id": "Authoring"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "The Wwise authoring application along with the debug DLLs and symbols for plug-in developers.",
+                    "displayName": "Authoring (Debug)",
+                    "eulaIds": [
+                        "Wwise",
+                        "VC19Redist"
+                    ],
+                    "id": "AuthoringDebug",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "LTX specific files.",
+                    "displayName": "Wwise LTX",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "LTX",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": false,
+                    "$visible": true,
+                    "description": "The C++ include files and several configurations of the compiled libraries and symbols, which are required by both the Unity and Unreal Integrations. SDK code samples and documentation are also included.",
+                    "displayName": "SDK (C++)",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "SDK"
+                },
+                {
+                    "$checked": false,
+                    "$visible": true,
+                    "description": "The Wwise User Guide PDF and the Wwise Help CHM.",
+                    "displayName": "Offline Documentation",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Documentation"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "The C++ source code of the Wwise SDK. A license for the Source Code is required per Deployment Platform, the license status can be viewed in the Customer Portal. Contact Audiokinetic sales for more information.",
+                    "displayName": "Source Code",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "SourceCode",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "A LUA interpreter with Wwise SDK bindings.",
+                    "displayName": "Tools/Game Simulator (Lua)",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "GameSimulatorInternal",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "The award-winning LIMBO game with complete Wwise project and companion documentation.",
+                    "displayName": "Samples/LIMBO (Demo)",
+                    "eulaIds": [],
+                    "id": "Limbo"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "A full open-source game with C++ source code, Wwise project, and companion documentation.",
+                    "displayName": "Samples/Cube (Demo)",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Cube"
+                },
+                {
+                    "$checked": false,
+                    "$visible": false,
+                    "description": "A Wwise Project and companion documentation demonstrating Wwise features.",
+                    "displayName": "Samples/Sample Project",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "SampleProject"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "Authoring Platforms",
+            "id": "AuthoringPlatforms",
+            "values": [
+                {
+                    "$checked": true,
+                    "applicable": true,
+                    "displayName": "32-bit",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Win32",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": true,
+                    "displayName": "64-bit",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "x64"
+                },
+                {
+                    "$checked": true,
+                    "applicable": false,
+                    "displayName": "Native macOS",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "macosx_gmake",
+                    "$message": "No files available"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "Authoring OS",
+            "id": "AuthoringOS",
+            "values": [
+                {
+                    "$checked": true,
+                    "applicable": true,
+                    "displayName": "Windows",
+                    "eulaIds": [
+                        "NetFramework"
+                    ],
+                    "id": "Windows"
+                },
+                {
+                    "$checked": true,
+                    "applicable": false,
+                    "displayName": "OSX",
+                    "eulaIds": [],
+                    "id": "OSX"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "Source Code Level",
+            "id": "SourceCodeLevel",
+            "values": [
+                {
+                    "$checked": true,
+                    "displayName": "Level2",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Level2",
+                    "$message": "No files available"
+                },
+                {
+                    "$checked": true,
+                    "displayName": "Level3",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Level3",
+                    "$message": "No files available"
+                }
+            ]
+        },
+        {
+            "displayName": "Deployment Platforms",
+            "id": "DeploymentPlatforms",
+            "values": [
+                {
+                    "displayName": "Android",
+                    "eulaIds": [],
+                    "id": "Android",
+                    "license": {
+                        "platform": "Android"
+                    }
+                },
+                {
+                    "displayName": "Apple/iOS",
+                    "eulaIds": [],
+                    "id": "iOS",
+                    "license": {
+                        "platform": "iOS"
+                    }
+                },
+                {
+                    "displayName": "Apple/tvOS",
+                    "eulaIds": [],
+                    "id": "tvOS",
+                    "license": {
+                        "platform": "iOS"
+                    }
+                },
+                {
+                    "displayName": "Apple/visionOS",
+                    "eulaIds": [],
+                    "id": "visionOS",
+                    "license": {
+                        "platform": "iOS"
+                    }
+                },
+                {
+                    "displayName": "Apple/macOS",
+                    "eulaIds": [],
+                    "id": "Mac",
+                    "license": {
+                        "platform": "Mac"
+                    }
+                },
+                {
+                    "displayName": "Linux",
+                    "eulaIds": [],
+                    "id": "Linux",
+                    "license": {
+                        "platform": "Linux"
+                    }
+                },
+                {
+                    "displayName": "Web (Experimental Tech Preview)",
+                    "eulaIds": [],
+                    "id": "Emscripten",
+                    "license": {
+                        "platform": "Emscripten"
+                    }
+                },
+                {
+                    "displayName": "OpenHarmony",
+                    "eulaIds": [],
+                    "id": "OpenHarmony",
+                    "license": {
+                        "platform": "OpenHarmony"
+                    },
+                    "$message": "No files available"
+                },
+                {
+                    "displayName": "Microsoft/Windows/Visual Studio 2019",
+                    "eulaIds": [],
+                    "id": "Windows_vc160",
+                    "license": {
+                        "platform": "Windows"
+                    }
+                },
+                {
+                    "displayName": "Microsoft/Windows/Visual Studio 2022",
+                    "eulaIds": [],
+                    "id": "Windows_vc170",
+                    "license": {
+                        "platform": "Windows"
+                    }
+                },
+                {
+                    "displayName": "Microsoft/Windows/Game Core",
+                    "eulaIds": [],
+                    "id": "WinGC",
+                    "license": {
+                        "platform": "Windows"
+                    }
+                },
+                {
+                    "displayName": "Microsoft/Xbox One (Game Core)",
+                    "eulaIds": [],
+                    "id": "XboxOneGC",
+                    "license": {
+                        "platform": "XboxOne"
+                    },
+                    "$message": "No files available"
+                },
+                {
+                    "displayName": "Nintendo/Switch",
+                    "eulaIds": [],
+                    "id": "NX",
+                    "license": {
+                        "platform": "Switch"
+                    },
+                    "$message": "No files available"
+                },
+                {
+                    "displayName": "Sony/PlayStation 4",
+                    "eulaIds": [],
+                    "id": "PS4",
+                    "license": {
+                        "platform": "PS4"
+                    },
+                    "$message": "No files available"
+                },
+                {
+                    "displayName": "Sony/PlayStation 5",
+                    "eulaIds": [],
+                    "id": "PS5",
+                    "license": {
+                        "platform": "PS5"
+                    },
+                    "$message": "No files available"
+                },
+                {
+                    "displayName": "Microsoft/Xbox Series X",
+                    "eulaIds": [],
+                    "id": "XboxSeriesX",
+                    "license": {
+                        "platform": "XboxSeriesX"
+                    },
+                    "$message": "No files available"
+                }
+            ]
+        }
+    ],
+    "eulas": [
+        {
+            "displayName": "Wwise",
+            "fileName": "Eula.txt",
+            "id": "Wwise"
+        },
+        {
+            "displayName": ".NET Framework",
+            "fileName": "LegalNetFramework.txt",
+            "id": "NetFramework"
+        },
+        {
+            "displayName": "Visual Studio 2019 C++ Redistributable",
+            "fileName": "LegalVC19Redist.txt",
+            "id": "VC19Redist"
+        }
+    ],
+    "executables": [
+        {
+            "files": [
+                {
+                    "architecture": "amd64",
+                    "config": "Release",
+                    "displayName": "Wwise",
+                    "filePath": "Authoring/x64/Release/bin/Wwise.exe",
+                    "os": "Windows"
+                },
+                {
+                    "architecture": "amd64",
+                    "config": "Debug",
+                    "displayName": "Wwise (Debug)",
+                    "filePath": "Authoring/x64/Debug/bin/Wwise.exe",
+                    "os": "Windows"
+                },
+                {
+                    "architecture": "amd64",
+                    "config": "Release",
+                    "displayName": "Wwise",
+                    "filePath": "Wwise.app",
+                    "os": "Mac"
+                }
+            ],
+            "groupId": "AuthoringApp",
+            "id": "Authoring"
+        },
+        {
+            "files": [
+                {
+                    "architecture": "amd64",
+                    "config": "Release",
+                    "displayName": "Wwise Wave Viewer",
+                    "filePath": "Authoring/x64/Release/bin/WaveViewer.exe",
+                    "os": "Windows"
+                },
+                {
+                    "architecture": "amd64",
+                    "config": "Debug",
+                    "displayName": "Wwise Wave Viewer (Debug)",
+                    "filePath": "Authoring/x64/Debug/bin/WaveViewer.exe",
+                    "os": "Windows"
+                }
+            ],
+            "groupId": "AuthoringTool",
+            "id": "WaveViewer"
+        },
+        {
+            "files": [
+                {
+                    "architecture": "amd64",
+                    "config": "Release",
+                    "displayName": "Multi-Channel Creator",
+                    "filePath": "Authoring/x64/Release/bin/MultiChannelCreator.exe",
+                    "os": "Windows"
+                },
+                {
+                    "architecture": "amd64",
+                    "config": "Debug",
+                    "displayName": "Multi-Channel Creator (Debug)",
+                    "filePath": "Authoring/x64/Debug/bin/MultiChannelCreator.exe",
+                    "os": "Windows"
+                }
+            ],
+            "groupId": "AuthoringTool",
+            "id": "MultiChannelCreator"
+        },
+        {
+            "files": [
+                {
+                    "architecture": "amd64",
+                    "config": "Release",
+                    "displayName": "File Packager",
+                    "filePath": "Authoring/x64/Release/bin/FilePackager.App.exe",
+                    "os": "Windows"
+                },
+                {
+                    "architecture": "amd64",
+                    "config": "Debug",
+                    "displayName": "File Packager (Debug)",
+                    "filePath": "Authoring/x64/Debug/bin/FilePackager.App.exe",
+                    "os": "Windows"
+                }
+            ],
+            "groupId": "AuthoringTool",
+            "id": "FilePackager"
+        }
+    ],
+    "files": [
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "OSX"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Cube.OSX.tar.xz",
+            "licenses": [],
+            "name": "Cube.OSX.tar.xz",
+            "sha1": "e3f26b7a115ead419e7cc86a047eb48fbc75227e",
+            "size": 304563904,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.OSX.tar.xz",
+            "uncompressedSize": 685608960
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Cube.Windows.tar.xz",
+            "licenses": [],
+            "name": "Cube.Windows.tar.xz",
+            "sha1": "12f8822fa4ceb38d09be2ba1c10b99ca3374377d",
+            "size": 286190024,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.Windows.tar.xz",
+            "uncompressedSize": 520797184
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ja.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ko.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_zh.pdf"
+                }
+            ],
+            "id": "Cube.Documentation.tar.xz",
+            "licenses": [],
+            "name": "Cube.Documentation.tar.xz",
+            "sha1": "1c3bb7bd4307162623a4a3c041b7515dcc8e8c78",
+            "size": 1175652,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.Documentation.tar.xz",
+            "uncompressedSize": 2784768
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Limbo"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Limbo.tar.xz",
+            "licenses": [],
+            "name": "Limbo.tar.xz",
+            "sha1": "006ca961939fb6779fd43d506f5c7a6ade148252",
+            "size": 138225448,
+            "sourceName": "Demo_Limbo_v2024.1.4_Build8780.tar.xz",
+            "uncompressedSize": 209055232
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SampleProject"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SampleProject.tar.xz",
+            "licenses": [],
+            "name": "SampleProject.tar.xz",
+            "sha1": "fa49af1f1ae31f54482c6988c8cf3d13210c8c00",
+            "size": 305532992,
+            "sourceName": "SampleProject_v2024.1.4_Build8780.tar.xz",
+            "uncompressedSize": 446277120
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Authoring"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Authoring.tar.xz",
+            "licenses": [],
+            "name": "Authoring.tar.xz",
+            "sha1": "e275371b399d53887e0adc6400936d976bdbf435",
+            "size": 1891776,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring.Main.tar.xz",
+            "uncompressedSize": 29682688
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Documentation"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "Wwise Documentation (CHM/English)",
+                    "path": "\\Authoring\\Help\\WwiseHelp_en.chm"
+                },
+                {
+                    "displayName": "Wwise Documentation (CHM/Japanese)",
+                    "path": "\\Authoring\\Help\\WwiseHelp_ja.chm"
+                },
+                {
+                    "displayName": "Wwise Documentation (CHM/Korean)",
+                    "path": "\\Authoring\\Help\\WwiseHelp_ko.chm"
+                },
+                {
+                    "displayName": "Wwise Documentation (CHM/Simplified Chinese)",
+                    "path": "\\Authoring\\Help\\WwiseHelp_zh.chm"
+                },
+                {
+                    "displayName": "Wwise Fundamentals (PDF/English)",
+                    "path": "\\Authoring\\Help\\Wwise_Fundamentals_en.pdf"
+                },
+                {
+                    "displayName": "Wwise Fundamentals (PDF/Japanese)",
+                    "path": "\\Authoring\\Help\\Wwise_Fundamentals_ja.pdf"
+                },
+                {
+                    "displayName": "Wwise Fundamentals (PDF/Korean)",
+                    "path": "\\Authoring\\Help\\Wwise_Fundamentals_ko.pdf"
+                },
+                {
+                    "displayName": "Wwise Fundamentals (PDF/Simplified Chinese)",
+                    "path": "\\Authoring\\Help\\Wwise_Fundamentals_zh.pdf"
+                }
+            ],
+            "id": "Documentation.tar.xz",
+            "licenses": [],
+            "name": "Documentation.tar.xz",
+            "sha1": "f77556b8a4ba9684c30b45c6c788a70d2f43893e",
+            "size": 138250952,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring.Documentation.tar.xz",
+            "uncompressedSize": 148574208
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Authoring"
+                },
+                {
+                    "groupId": "AuthoringPlatforms",
+                    "groupValueId": "x64"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Authoring.x64.tar.xz",
+            "licenses": [],
+            "name": "Authoring.x64.tar.xz",
+            "sha1": "6a7f466386605fc73cc371ddd33095d7010d73e0",
+            "size": 19796176,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring_x64.Release.Main.tar.xz",
+            "uncompressedSize": 80889856
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Authoring"
+                },
+                {
+                    "groupId": "AuthoringPlatforms",
+                    "groupValueId": "x64"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "FilePackager.x64.tar.xz",
+            "licenses": [],
+            "name": "FilePackager.x64.tar.xz",
+            "sha1": "b4db9cf4ca41573d503567479b7a97552983efdb",
+            "size": 104200,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring_x64.Release.FilePackager.tar.xz",
+            "uncompressedSize": 496128
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Authoring"
+                },
+                {
+                    "groupId": "AuthoringPlatforms",
+                    "groupValueId": "x64"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Authoring.MacExcludes.x64.tar.xz",
+            "licenses": [],
+            "name": "Authoring.MacExcludes.x64.tar.xz",
+            "sha1": "ebf9401ae8dda2af2fb644e76b19a92ffc325b70",
+            "size": 6648556,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring_x64.Release.MacExcludes.tar.xz",
+            "uncompressedSize": 20388352
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Authoring"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Authoring.Documentation.tar.xz",
+            "licenses": [],
+            "name": "Authoring.Documentation.tar.xz",
+            "sha1": "348f43217e1f355197f30e2abaf8df5f009b589e",
+            "size": 346096,
+            "sourceName": "Wwise_v2024.1.4_Build8780_Authoring.Documentation.Main.tar.xz",
+            "uncompressedSize": 5435392
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.tar.xz",
+            "sha1": "770035b111a72b8c9e9a3147261cd7bb2d169a4a",
+            "size": 86566592,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Main.tar.xz",
+            "uncompressedSize": 141081600
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.tar.xz",
+            "licenses": [],
+            "name": "SDK.tar.xz",
+            "sha1": "18cc277178663a6a20bc8dfe1f68eb84ce0e11c2",
+            "size": 22889180,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Main.tar.xz",
+            "uncompressedSize": 110852096
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.FilePackager.tar.xz",
+            "licenses": [],
+            "name": "SDK.FilePackager.tar.xz",
+            "sha1": "7df21d4f55fc580423e76272c375609a5d28a9e5",
+            "size": 82064,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.FilePackager.tar.xz",
+            "uncompressedSize": 718848
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Emscripten_mt.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Emscripten_mt.tar.xz",
+            "sha1": "6b00166baf88f11d237c3a2da38f5a8dfe853062",
+            "size": 39900548,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Emscripten_mt.tar.xz",
+            "uncompressedSize": 102067712
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Emscripten_st.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Emscripten_st.tar.xz",
+            "sha1": "fbfc1b21a302ac289cc6c764a0b7efdb6cbfe943",
+            "size": 39437988,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Emscripten_st.tar.xz",
+            "uncompressedSize": 101368320
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Emscripten_mt.tar.xz",
+            "licenses": [],
+            "name": "SDK.Emscripten_mt.tar.xz",
+            "sha1": "3a28ce5ecf5cb8d4a678def0a0d44678b1e10d8c",
+            "size": 35738752,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Emscripten_mt.tar.xz",
+            "uncompressedSize": 172865536
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Emscripten_st.tar.xz",
+            "licenses": [],
+            "name": "SDK.Emscripten_st.tar.xz",
+            "sha1": "811feaec45107ebb4a80853ee4de73269b20b0ff",
+            "size": 35527652,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Emscripten_st.tar.xz",
+            "uncompressedSize": 172108288
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.WinGC_vc160.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.WinGC_vc160.tar.xz",
+            "sha1": "cedd4a7841e1e01e636e448a2edee9638947ec04",
+            "size": 3710616,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.WinGC_vc160.tar.xz",
+            "uncompressedSize": 17330688
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.WinGC_vc170.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.WinGC_vc170.tar.xz",
+            "sha1": "bc118ed54e6dbb76d0f461b60c4d03cc811cc6fc",
+            "size": 3718392,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.WinGC_vc170.tar.xz",
+            "uncompressedSize": 17448448
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.WinGC_vc160.tar.xz",
+            "licenses": [],
+            "name": "SDK.WinGC_vc160.tar.xz",
+            "sha1": "fce3ac4cf54242611182b402dffef9aaf4603904",
+            "size": 43938772,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.WinGC_vc160.tar.xz",
+            "uncompressedSize": 397987840
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.WinGC_vc170.tar.xz",
+            "licenses": [],
+            "name": "SDK.WinGC_vc170.tar.xz",
+            "sha1": "efa6ecb48b539110314c8f7b6f023a0853ef7d93",
+            "size": 47913096,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.WinGC_vc170.tar.xz",
+            "uncompressedSize": 435555840
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Win32_vc160.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Win32_vc160.tar.xz",
+            "sha1": "38da8424ae7a942b64edf5c2b7ca9fb32b2561f4",
+            "size": 3148988,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Win32_vc160.tar.xz",
+            "uncompressedSize": 14332928
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.x64_vc160.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.x64_vc160.tar.xz",
+            "sha1": "72451529eb5ce74b5fc85210dd03205da0ad4d6e",
+            "size": 3910572,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.x64_vc160.tar.xz",
+            "uncompressedSize": 18997248
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Win32_vc160.tar.xz",
+            "licenses": [],
+            "name": "SDK.Win32_vc160.tar.xz",
+            "sha1": "fbd4882de3bc952f1a31e81c04efdfa54ed06a9e",
+            "size": 114572512,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Win32_vc160.tar.xz",
+            "uncompressedSize": 1072078336
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.x64_vc160.tar.xz",
+            "licenses": [],
+            "name": "SDK.x64_vc160.tar.xz",
+            "sha1": "7993b55a866d58eeaa62f9fc8a83b69862654264",
+            "size": 124229112,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.x64_vc160.tar.xz",
+            "uncompressedSize": 1145565696
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.ARM64_vc170.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.ARM64_vc170.tar.xz",
+            "sha1": "a185d789c3a6b46a6ef77afa2031706ad1f96119",
+            "size": 3116172,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.ARM64_vc170.tar.xz",
+            "uncompressedSize": 20490752
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Win32_vc170.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Win32_vc170.tar.xz",
+            "sha1": "54431ec702bb5cb962258ce5e45a1f36d2d49349",
+            "size": 3184400,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Win32_vc170.tar.xz",
+            "uncompressedSize": 14489600
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.x64_vc170.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.x64_vc170.tar.xz",
+            "sha1": "c206f0663b6559c5fc14c81ebfe5dd0a62f8cb95",
+            "size": 3938104,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.x64_vc170.tar.xz",
+            "uncompressedSize": 19213312
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.ARM64_vc170.tar.xz",
+            "licenses": [],
+            "name": "SDK.ARM64_vc170.tar.xz",
+            "sha1": "9790346d1cd3e0af7b7fc19b0349bc040cc5072c",
+            "size": 123569316,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.ARM64_vc170.tar.xz",
+            "uncompressedSize": 1180091904
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Win32_vc170.tar.xz",
+            "licenses": [],
+            "name": "SDK.Win32_vc170.tar.xz",
+            "sha1": "50541be7b1e413944961d90da78c461967ab65b7",
+            "size": 122274040,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Win32_vc170.tar.xz",
+            "uncompressedSize": 1138495488
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.x64_vc170.tar.xz",
+            "licenses": [],
+            "name": "SDK.x64_vc170.tar.xz",
+            "sha1": "674adaba04708dbf156d27d84508df9404a1ab9c",
+            "size": 132385624,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.x64_vc170.tar.xz",
+            "uncompressedSize": 1214579712
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Linux_aarch64.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Linux_aarch64.tar.xz",
+            "sha1": "849cbbbc2e07149804875066fe55e0f56c92e966",
+            "size": 27145916,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Linux_aarch64.tar.xz",
+            "uncompressedSize": 142062592
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Linux_x64.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Linux_x64.tar.xz",
+            "sha1": "61ed51663081c3407a19d65f480ebd71317ffa82",
+            "size": 28375904,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Linux_x64.tar.xz",
+            "uncompressedSize": 140038656
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Linux_aarch64.tar.xz",
+            "licenses": [],
+            "name": "SDK.Linux_aarch64.tar.xz",
+            "sha1": "0527d26947283212dfca99679cbcd214b307e91d",
+            "size": 41504972,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Linux_aarch64.tar.xz",
+            "uncompressedSize": 382408192
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Linux_x64.tar.xz",
+            "licenses": [],
+            "name": "SDK.Linux_x64.tar.xz",
+            "sha1": "d655cf214790e9d9676efb97fbae50ca7f0dd92a",
+            "size": 42380856,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Linux_x64.tar.xz",
+            "uncompressedSize": 382353408
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Android_arm64-v8a.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Android_arm64-v8a.tar.xz",
+            "sha1": "4fa26fae49771df4bf282823ba475d3006ca34e3",
+            "size": 85517772,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Android_arm64-v8a.tar.xz",
+            "uncompressedSize": 209706496
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Android_armeabi-v7a.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Android_armeabi-v7a.tar.xz",
+            "sha1": "9759df1cd7a7d2ae5a75ccfba2de4d3ab3a7136a",
+            "size": 81747812,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Android_armeabi-v7a.tar.xz",
+            "uncompressedSize": 177927168
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Android_x86.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Android_x86.tar.xz",
+            "sha1": "445d87f44533c23695db0a4e8a2c0cae7a32e460",
+            "size": 88237052,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Android_x86.tar.xz",
+            "uncompressedSize": 189352448
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Android_x86_64.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Android_x86_64.tar.xz",
+            "sha1": "0303ffc4a37781bba039c93c54f5741b4fadf8fa",
+            "size": 88352264,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Android_x86_64.tar.xz",
+            "uncompressedSize": 205927424
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Android_arm64-v8a.tar.xz",
+            "licenses": [],
+            "name": "SDK.Android_arm64-v8a.tar.xz",
+            "sha1": "8538eb8e043a0777f95ae3e64ca7a8946d82238e",
+            "size": 45330284,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Android_arm64-v8a.tar.xz",
+            "uncompressedSize": 388406272
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Android_armeabi-v7a.tar.xz",
+            "licenses": [],
+            "name": "SDK.Android_armeabi-v7a.tar.xz",
+            "sha1": "2c9f472919a100f54f6eb68f6c02dace3c13c97f",
+            "size": 42842976,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Android_armeabi-v7a.tar.xz",
+            "uncompressedSize": 269316608
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Android_x86.tar.xz",
+            "licenses": [],
+            "name": "SDK.Android_x86.tar.xz",
+            "sha1": "8e94b6bbb425e3699d3212ed281b0c59a86c50f6",
+            "size": 42658772,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Android_x86.tar.xz",
+            "uncompressedSize": 271722496
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Android_x86_64.tar.xz",
+            "licenses": [],
+            "name": "SDK.Android_x86_64.tar.xz",
+            "sha1": "4d489bb38d42238bd0beadb19b6d1f81ef33c626",
+            "size": 44704464,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Android_x86_64.tar.xz",
+            "uncompressedSize": 365936128
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "iOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.iOSsim.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.iOSsim.tar.xz",
+            "sha1": "ccd6021b49bbf59a8068a27f96663f8b69d89146",
+            "size": 100822292,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.iOSsim.tar.xz",
+            "uncompressedSize": 196761600
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "iOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.iOSsim.tar.xz",
+            "licenses": [],
+            "name": "SDK.iOSsim.tar.xz",
+            "sha1": "68469ce88ac1a2fe3bb80f5a2bd256812ff82068",
+            "size": 227210892,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.iOSsim.tar.xz",
+            "uncompressedSize": 1890959360
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "tvOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.tvOSsim.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.tvOSsim.tar.xz",
+            "sha1": "3e2f8f613ed449bc24bc8ce22b37066a25d81294",
+            "size": 100679088,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.tvOSsim.tar.xz",
+            "uncompressedSize": 197765120
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "tvOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.tvOSsim.tar.xz",
+            "licenses": [],
+            "name": "SDK.tvOSsim.tar.xz",
+            "sha1": "96c824524b91654caacdbc0016f166cc8036800c",
+            "size": 228174508,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.tvOSsim.tar.xz",
+            "uncompressedSize": 1896253440
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "visionOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.visionOSsim.tar.xz",
+            "licenses": [],
+            "name": "SDK.visionOSsim.tar.xz",
+            "sha1": "ef8741f6576073986b3f4b86cf9ae485f9539253",
+            "size": 149698360,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.visionOSsim.tar.xz",
+            "uncompressedSize": 1215549440
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Android.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Android.tar.xz",
+            "sha1": "f49b1991a47650f109da5f8c5f9375262d6a9a2c",
+            "size": 8655448,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Android.tar.xz",
+            "uncompressedSize": 12080128
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Emscripten.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Emscripten.tar.xz",
+            "sha1": "60b106c3d94324f61536d91573e1a265ee6cc964",
+            "size": 8776988,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Emscripten.tar.xz",
+            "uncompressedSize": 12100096
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "iOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.iOS.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.iOS.tar.xz",
+            "sha1": "17e1c7e6c686599cefc3df33e6c42696d9b7b91d",
+            "size": 106039908,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.iOS.tar.xz",
+            "uncompressedSize": 205107200
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Linux.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Linux.tar.xz",
+            "sha1": "1af2e7c6557aada55f16303d94e038fd1dbc20ab",
+            "size": 8777872,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Linux.tar.xz",
+            "uncompressedSize": 12140032
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Mac"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Mac.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Mac.tar.xz",
+            "sha1": "b6703913b168b0526b2466a5ffa59966075ac035",
+            "size": 49397772,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Mac.tar.xz",
+            "uncompressedSize": 214353920
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "tvOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.tvOS.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.tvOS.tar.xz",
+            "sha1": "3c33b81c9eecdd1f44ae5cf39f9ea34f98472e33",
+            "size": 106376572,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.tvOS.tar.xz",
+            "uncompressedSize": 205434880
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Windows_vc160.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Windows_vc160.tar.xz",
+            "sha1": "aab4e14ae4e53c5b379f910461cf33e5c81a4865",
+            "size": 8777792,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Windows_vc160.tar.xz",
+            "uncompressedSize": 12249600
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.Windows_vc170.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.Windows_vc170.tar.xz",
+            "sha1": "60098e97cd03f6a0ecc60fecd5e65041a9073439",
+            "size": 8777448,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.Windows_vc170.tar.xz",
+            "uncompressedSize": 12251136
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "IntegrationDemo.WinGC.tar.xz",
+            "licenses": [],
+            "name": "IntegrationDemo.WinGC.tar.xz",
+            "sha1": "efcef31590472936352f29e2a2094781b9e5054e",
+            "size": 8776624,
+            "sourceName": "Wwise_v2024.1.4_Build8780_IntegrationDemo.WinGC.tar.xz",
+            "uncompressedSize": 12187648
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Android.tar.xz",
+            "licenses": [],
+            "name": "SDK.Android.tar.xz",
+            "sha1": "34defaad19b064a06229ba5b5f9f29db62b6c17c",
+            "size": 832156,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Android.tar.xz",
+            "uncompressedSize": 8773632
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Emscripten.tar.xz",
+            "licenses": [],
+            "name": "SDK.Emscripten.tar.xz",
+            "sha1": "7ca2a36cfe2fc915366e18349cde4c3d097c59fb",
+            "size": 18320,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Emscripten.tar.xz",
+            "uncompressedSize": 157696
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "iOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.iOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.iOS.tar.xz",
+            "sha1": "1072724895226ded7dec1ad2fa28c4857817a1f1",
+            "size": 223218004,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.iOS.tar.xz",
+            "uncompressedSize": 1878814720
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Linux.tar.xz",
+            "licenses": [],
+            "name": "SDK.Linux.tar.xz",
+            "sha1": "7bb890f35920d419d8b35887e39e0404daba45f6",
+            "size": 29396,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Linux.tar.xz",
+            "uncompressedSize": 1069056
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Mac"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Mac.tar.xz",
+            "licenses": [],
+            "name": "SDK.Mac.tar.xz",
+            "sha1": "48532637528de6a8e9f6b706ef2c8b834b31d80f",
+            "size": 473802044,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Mac.tar.xz",
+            "uncompressedSize": 4050872320
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "tvOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.tvOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.tvOS.tar.xz",
+            "sha1": "bf8eabf167d0dfbdd1dd70ac90383b9cba128512",
+            "size": 223720312,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.tvOS.tar.xz",
+            "uncompressedSize": 1882603520
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "visionOS"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.visionOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.visionOS.tar.xz",
+            "sha1": "a634f99b72510f78ef57f951cee3eef483534ee3",
+            "size": 147728036,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.visionOS.tar.xz",
+            "uncompressedSize": 1214248960
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc160"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Windows_vc160.tar.xz",
+            "licenses": [],
+            "name": "SDK.Windows_vc160.tar.xz",
+            "sha1": "2c00dca1d60843c5d203aa72df88a2f63d17d3de",
+            "size": 40580,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Windows_vc160.tar.xz",
+            "uncompressedSize": 2433024
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Windows_vc170"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.Windows_vc170.tar.xz",
+            "licenses": [],
+            "name": "SDK.Windows_vc170.tar.xz",
+            "sha1": "b61a45263cdecdc8066d90236f6ef76a007e76cf",
+            "size": 46328,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Windows_vc170.tar.xz",
+            "uncompressedSize": 2620416
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "WinGC"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "SDK.WinGC.tar.xz",
+            "licenses": [],
+            "name": "SDK.WinGC.tar.xz",
+            "sha1": "0414644703c5384c5dc4228c73346a90e7f2d419",
+            "size": 30752,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.WinGC.tar.xz",
+            "uncompressedSize": 1843200
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - Windows (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-Windows.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Windows (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-Windows.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Windows (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-Windows.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Windows (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-Windows.chm"
+                }
+            ],
+            "id": "SDK.Documentation.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.tar.xz",
+            "sha1": "e2b247db2bdda751eadcd02a8b689cfb051668bc",
+            "size": 279912352,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.Windows.tar.xz",
+            "uncompressedSize": 282896384
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Android"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - Android (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-Android.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Android (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-Android.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Android (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-Android.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Android (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-Android.chm"
+                }
+            ],
+            "id": "SDK.Documentation.Android.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.Android.tar.xz",
+            "sha1": "22afb62c1be50cffb3a8fe4ed1c9000df39fd711",
+            "size": 278854464,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.Android.tar.xz",
+            "uncompressedSize": 281699328
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Emscripten"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - Emscripten (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-Emscripten.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Emscripten (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-Emscripten.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Emscripten (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-Emscripten.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Emscripten (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-Emscripten.chm"
+                }
+            ],
+            "id": "SDK.Documentation.Emscripten.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.Emscripten.tar.xz",
+            "sha1": "0826beaf549e9c3ad2264d356e03bbc29d4038c8",
+            "size": 275627492,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.Emscripten.tar.xz",
+            "uncompressedSize": 278413312
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "iOS"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - iOS (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-iOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - iOS (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-iOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - iOS (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-iOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - iOS (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-iOS.chm"
+                }
+            ],
+            "id": "SDK.Documentation.iOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.iOS.tar.xz",
+            "sha1": "15f7038a607e71fcf72cf630fe5cbdf3238eaecc",
+            "size": 277398816,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.iOS.tar.xz",
+            "uncompressedSize": 280199680
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Linux"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - Linux (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-Linux.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Linux (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-Linux.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Linux (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-Linux.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Linux (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-Linux.chm"
+                }
+            ],
+            "id": "SDK.Documentation.Linux.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.Linux.tar.xz",
+            "sha1": "336e386581f9f11e0c9e7c195990878005ed1fed",
+            "size": 276136488,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.Linux.tar.xz",
+            "uncompressedSize": 278845440
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "Mac"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - Mac (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-Mac.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Mac (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-Mac.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Mac (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-Mac.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - Mac (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-Mac.chm"
+                }
+            ],
+            "id": "SDK.Documentation.Mac.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.Mac.tar.xz",
+            "sha1": "7881c6d60c2241c662fa0f42e293140cb20cacd6",
+            "size": 276083300,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.Mac.tar.xz",
+            "uncompressedSize": 278831104
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "tvOS"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - tvOS (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-tvOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - tvOS (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-tvOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - tvOS (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-tvOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - tvOS (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-tvOS.chm"
+                }
+            ],
+            "id": "SDK.Documentation.tvOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.tvOS.tar.xz",
+            "sha1": "64f4209a246ce7ba54a9a79253964cfd50682f83",
+            "size": 277340572,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.tvOS.tar.xz",
+            "uncompressedSize": 280210432
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "SDK"
+                },
+                {
+                    "groupId": "DeploymentPlatforms",
+                    "groupValueId": "visionOS"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "SDK Documentation - visionOS (CHM/English)",
+                    "path": "\\SDK\\Help\\WwiseSDK-visionOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - visionOS (CHM/Japanese)",
+                    "path": "\\SDK\\Help\\ja\\WwiseSDK-visionOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - visionOS (CHM/Korean)",
+                    "path": "\\SDK\\Help\\ko\\WwiseSDK-visionOS.chm"
+                },
+                {
+                    "displayName": "SDK Documentation - visionOS (CHM/Simplified Chinese)",
+                    "path": "\\SDK\\Help\\zh\\WwiseSDK-visionOS.chm"
+                }
+            ],
+            "id": "SDK.Documentation.visionOS.tar.xz",
+            "licenses": [],
+            "name": "SDK.Documentation.visionOS.tar.xz",
+            "sha1": "a7f5d26f0b746263bc4719ac8465e476063d7270",
+            "size": 277466152,
+            "sourceName": "Wwise_v2024.1.4_Build8780_SDK.Documentation.visionOS.tar.xz",
+            "uncompressedSize": 280205824
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "OSX"
+                }
+            ],
+            "documentationFiles": [],
+            "id": "Wwise.app.zip",
+            "licenses": [],
+            "name": "Wwise.app.zip",
+            "sha1": "a780d6d4723c54669889d1d1e3d383167ef937b2",
+            "size": 416259152,
+            "sourceName": "Wwise.app.zip",
+            "uncompressedSize": 1015049240
+        }
+    ],
+    "id": "wwise.2024_1_4_8780",
+    "labels": [],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "major": 1,
+            "minor": 1,
+            "year": 2021
+        }
+    },
+    "links": [
+        {
+            "displayName": "Release Notes",
+            "id": "audiokinetic.com/releaseNotes",
+            "url": "https://www.audiokinetic.com/library/2024.1.4_8780/?source=SDK&id=releasenotes.html"
+        }
+    ],
+    "name": "Wwise",
+    "productDependentData": {
+        "crossoverBottleName": "Wwise2019",
+        "macOS": {
+            "IS_USING_ROOT_LIBRARY": true,
+            "minimumRequiredVersion": {
+                "major": 10,
+                "minor": 13
+            },
+            "skipWinePrefix": true
+        },
+        "plugins": {
+            "oldestSupportedWwiseVersion": {
+                "major": 1,
+                "year": 2023
+            }
+        }
+    },
+    "redistributables": [
+        {
+            "displayName": "Microsoft .NET Framework 4.8",
+            "fileName": "ndp48-x86-x64-allos-enu.exe",
+            "url": "https://download.visualstudio.microsoft.com/download/pr/2d6bb6b2-226a-4baa-bdec-798822606ff1/8494001c276a4b96804cde7829c04d7f/ndp48-x86-x64-allos-enu.exe",
+            "platform": "windows",
+            "requirements": [
+                {
+                    "key": {
+                        "hKey": "HKLM",
+                        "keyPath": "SOFTWARE\\WOW6432Node\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
+                        "wow64": false
+                    },
+                    "minVersion": "4.8",
+                    "type": "regKeyVersion",
+                    "valueName": "Version"
+                }
+            ],
+            "command": "ndp48-x86-x64-allos-enu.exe /q /norestart"
+        },
+        {
+            "platform": "windows",
+            "fileName": "directx_Jun2010_redist.exe",
+            "command": "directx_Jun2010_redist.exe /Q /T:\"%CD%\\DirectX_Jun2010\" & start /wait DirectX_Jun2010\\DXSETUP.exe /Silent",
+            "displayName": "DirectX 9 Jun2010",
+            "requirements": [
+                {
+                    "type": "filePresent",
+                    "path": "%SystemRoot%/System32/d3dx9_24.dll"
+                },
+                {
+                    "type": "filePresent",
+                    "path": "%SystemRoot%/SysWOW64/d3dx9_24.dll"
+                }
+            ],
+            "url": "https://download.microsoft.com/download/8/4/A/84A35BF1-DAFE-4AE8-82AF-AD2AE20B6B14/directx_Jun2010_redist.exe"
+        }
+    ],
+    "tag": "wwise",
+    "type": "wwise",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 8780,
+        "major": 1,
+        "minor": 4,
+        "year": 2024
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1668548060000,
+    "$sortGroupIndex": 0,
+    "displayName": "Wwise 2024.1.4.8780",
+    "children": []
+}

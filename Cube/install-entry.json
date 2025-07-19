@@ -1,0 +1,50 @@
+{
+    "bundle": {
+        "id": "cube.2024_1_4_8780",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2024,
+            "major": 1,
+            "minor": "4",
+            "build": 8780
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "displayName": " 2024.1.4.8780",
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "P:\\Dropbox\\Dropbox\\SI2025\\Wwise_101\\Cube",
+    "installType": "normal",
+    "parentId": null,
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "Cube"
+            },
+            {
+                "id": "AuthoringOS",
+                "valueId": "Windows"
+            }
+        ],
+        "files": [
+            "Cube.Windows.tar.xz",
+            "Cube.Documentation.tar.xz"
+        ],
+        "date": 1752922572904
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\cube.2024_1_4_8780.png"
+    ]
+}

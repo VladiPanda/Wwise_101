@@ -1,0 +1,228 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "A full open-source game with C++ source code, Wwise project, and companion documentation.",
+                    "displayName": "Cube",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Cube"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "Authoring OS",
+            "id": "AuthoringOS",
+            "values": [
+                {
+                    "$checked": true,
+                    "applicable": true,
+                    "displayName": "Windows",
+                    "eulaIds": [
+                        "NetFramework"
+                    ],
+                    "id": "Windows"
+                },
+                {
+                    "$checked": true,
+                    "applicable": false,
+                    "displayName": "OSX",
+                    "eulaIds": [],
+                    "id": "OSX"
+                }
+            ]
+        }
+    ],
+    "description": "A non-violent adaptation of the open-source first-person game <b>Cube</b>. This sample comes with C++ source code and a Wwise project which can be used alongside the Wwise Fundamentals and Interactive Music certifications learning content.",
+    "documentation": [],
+    "eulas": [
+        {
+            "displayName": "Wwise",
+            "fileName": "Eula.txt",
+            "id": "Wwise"
+        },
+        {
+            "displayName": ".NET Framework",
+            "fileName": "LegalNetFramework.txt",
+            "id": "NetFramework"
+        }
+    ],
+    "files": [
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "OSX"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "View Documentation",
+                    "path": "Cube/Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "View Cube Readme",
+                    "path": "Cube/cube/readme.html"
+                }
+            ],
+            "id": "Cube.OSX.tar.xz",
+            "licenses": [],
+            "name": "Cube.OSX.tar.xz",
+            "sha1": "e3f26b7a115ead419e7cc86a047eb48fbc75227e",
+            "size": 304563904,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.OSX.tar.xz",
+            "uncompressedSize": 685608960
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "View Documentation",
+                    "path": "Cube/Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "View Cube Readme",
+                    "path": "Cube/cube/readme.html"
+                }
+            ],
+            "id": "Cube.Windows.tar.xz",
+            "licenses": [],
+            "name": "Cube.Windows.tar.xz",
+            "sha1": "12f8822fa4ceb38d09be2ba1c10b99ca3374377d",
+            "size": 286190024,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.Windows.tar.xz",
+            "uncompressedSize": 520797184
+        },
+        {
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                }
+            ],
+            "documentationFiles": [
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ja.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ko.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_zh.pdf"
+                },
+                {
+                    "displayName": "View Documentation",
+                    "path": "Cube/Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "View Cube Readme",
+                    "path": "Cube/cube/readme.html"
+                }
+            ],
+            "id": "Cube.Documentation.tar.xz",
+            "licenses": [],
+            "name": "Cube.Documentation.tar.xz",
+            "sha1": "1c3bb7bd4307162623a4a3c041b7515dcc8e8c78",
+            "size": 1175652,
+            "sourceName": "Demo_Cube_v2024.1.4_Build8780.Documentation.tar.xz",
+            "uncompressedSize": 2784768
+        }
+    ],
+    "id": "cube.2024_1_4_8780",
+    "image": "https://media.gowwise.com/images/samples/cube.png",
+    "labels": [],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2025
+        }
+    },
+    "links": [],
+    "name": "Cube",
+    "productDependentData": {
+        "projectPaths": {
+            "wwise": "Cube/WwiseProject/Cube.wproj"
+        },
+        "targetWwiseVersion": {
+            "build": 8780,
+            "major": 1,
+            "minor": 4,
+            "nickname": "",
+            "year": 2024
+        }
+    },
+    "redistributables": [],
+    "requirements": [
+        {
+            "applicable": true,
+            "data": {
+                "bundleId": "wwise.2024_1_4_8780",
+                "groups": [
+                    {
+                        "groupId": "Packages",
+                        "groupValueId": "Authoring"
+                    }
+                ],
+                "productType": "wwise",
+                "version": "2024.1.4.8780"
+            },
+            "description": "Wwise will let you open the Wwise project distributed as part of this package.",
+            "execution": "preInstall",
+            "id": "wwise.2024_1_4_8780",
+            "mandatory": true,
+            "name": "Wwise",
+            "type": "akProduct",
+            "version": "2024.1.4.8780"
+        }
+    ],
+    "tag": "cube",
+    "type": "sample",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 8780,
+        "major": 1,
+        "minor": 4,
+        "year": 2024
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747753620000,
+    "$sortGroupIndex": 1,
+    "displayName": "Cube 2024.1.4.8780",
+    "children": []
+}
