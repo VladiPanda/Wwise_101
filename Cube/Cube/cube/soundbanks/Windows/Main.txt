@@ -1,6 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2390793602	Fire_IceGem_Player			\Default Work Unit\Fire_IceGem_Player	
 
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	57620421	Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Silence\Silence	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	433698526	IceGem_Blast	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise_Project\Cube Project\.cache\BB\{BBD754D6-6BCC-F6C1-07F8-C551344AEE13}.wem		\Actor-Mixer Hierarchy\Default Work Unit\IceGem_Blast		113700
+	45003790	Gem_Breaking_Tail-01	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\F9\{F978E07E-4668-367A-9A73-4B202D270D88}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-01		109118
+	192053154	Gem_Breaking_Head-01	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\66\{6692F1A8-16C7-902C-A6F4-FD7219718729}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-01		12650
+	282680397	Gem_Breaking_Tail-05	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\3F\{3FCF23CD-1AA3-3F49-9E22-8F5D923FBFF6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-05		62352
+	440290561	Gem_Breaking_Tail-04	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\3A\{3A6CA4B0-B6EB-7F8F-01FB-7405A0050092}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-04		90814
+	562340077	Gem_Breaking_Tail-06	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\C3\{C334D27F-3796-1031-0BDC-5CFD1BC99450}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-06		60556
+	586468736	Gem_Breaking_Head-04	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\CA\{CA6F2879-A7C6-51FB-C51E-67C5A2ED89BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-04		11522
+	651969852	Gem_Recharge_Magic	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\B1\{B15A2322-BD15-E002-EBF4-101884B47821}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem_Recharge_Magic		149314
+	678082713	Gem_Breaking_Tail-02	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\47\{47B1356A-B48B-0E23-0D0A-C19A15B8B9CD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-02		86198
+	706829821	Gem_Breaking_Head-02	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\72\{7269D859-551E-8E38-F5C7-6D4A8EB26C5D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-02		27284
+	759893261	Gem_Breaking_Tail-03	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\5F\{5F2CB91D-9D69-1656-3B78-EB5CDD1AE2D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Tail\Gem_Breaking_Tail-03		85830
+	799671185	Gem_Recharge_Woosh	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\E8\{E8F1C1D6-CE39-AC40-66E0-AD8D935D27F1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem_Recharge_Woosh		130564
+	862955921	IceGem_Blast	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\E5\{E5957BD1-9406-0421-5FC8-87CDD789D341}.wem		\Actor-Mixer Hierarchy\Default Work Unit\IceGem_Blast		286292
+	1028070747	Gem_Breaking_Head-03	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\06\{062C92F1-F364-520D-855C-429AF1318ECF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-03		24048
+	1052085378	Gem_Breaking_Head-06	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\2F\{2F0F4785-CCA7-D7C6-CEFE-E503F645EC35}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-06		22488
+	1069472407	Gem_Breaking_Head-05	P:\Dropbox\Dropbox\SI2025\Wwise_101\Wwise Fundamentals\Module 3\Wwise Project Module 3\.cache\AB\{AB583FA4-9F4F-9CE1-17B7-2C7781303879}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gem Drop\Gem Head\Gem_Breaking_Head-05		20442
 

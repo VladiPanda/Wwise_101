@@ -8,40 +8,213 @@
    {
     "Id": "3161908922",
     "Type": "User",
-    "GUID": "{17D4C8DC-F95C-4CC2-A847-100D2CD582F2}",
+    "GUID": "{D080E961-43FC-48AC-B9F4-74D82FA104BE}",
     "Language": "SFX",
-    "Hash": "{213721CD-396F-AA55-2F90-E34C5BA2340F}",
+    "Hash": "{FE4B51A0-228C-C6A5-DBFC-CC0A088E13A2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "433698526",
+      "Id": "45003790",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "fart_squirt_06 2.wav",
-      "CachePath": "BB/{BBD754D6-6BCC-F6C1-07F8-C551344AEE13}.wem"
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-01.wav",
+      "CachePath": "F9/{F978E07E-4668-367A-9A73-4B202D270D88}.wem"
+     },
+     {
+      "Id": "192053154",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-01.wav",
+      "CachePath": "66/{6692F1A8-16C7-902C-A6F4-FD7219718729}.wem"
+     },
+     {
+      "Id": "282680397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-05.wav",
+      "CachePath": "3F/{3FCF23CD-1AA3-3F49-9E22-8F5D923FBFF6}.wem"
+     },
+     {
+      "Id": "440290561",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-04.wav",
+      "CachePath": "3A/{3A6CA4B0-B6EB-7F8F-01FB-7405A0050092}.wem"
+     },
+     {
+      "Id": "562340077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-06.wav",
+      "CachePath": "C3/{C334D27F-3796-1031-0BDC-5CFD1BC99450}.wem"
+     },
+     {
+      "Id": "586468736",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-04.wav",
+      "CachePath": "CA/{CA6F2879-A7C6-51FB-C51E-67C5A2ED89BD}.wem"
+     },
+     {
+      "Id": "651969852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem_Recharge.wav",
+      "CachePath": "B1/{B15A2322-BD15-E002-EBF4-101884B47821}.wem"
+     },
+     {
+      "Id": "678082713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-02.wav",
+      "CachePath": "47/{47B1356A-B48B-0E23-0D0A-C19A15B8B9CD}.wem"
+     },
+     {
+      "Id": "706829821",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-02.wav",
+      "CachePath": "72/{7269D859-551E-8E38-F5C7-6D4A8EB26C5D}.wem"
+     },
+     {
+      "Id": "759893261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Tail\\Gem_Breaking_Tail-03.wav",
+      "CachePath": "5F/{5F2CB91D-9D69-1656-3B78-EB5CDD1AE2D4}.wem"
+     },
+     {
+      "Id": "799671185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem_Recharge.wav",
+      "CachePath": "E8/{E8F1C1D6-CE39-AC40-66E0-AD8D935D27F1}.wem"
+     },
+     {
+      "Id": "862955921",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "IceGem_Blast.wav",
+      "CachePath": "E5/{E5957BD1-9406-0421-5FC8-87CDD789D341}.wem"
+     },
+     {
+      "Id": "1028070747",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-03.wav",
+      "CachePath": "06/{062C92F1-F364-520D-855C-429AF1318ECF}.wem"
+     },
+     {
+      "Id": "1052085378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-06.wav",
+      "CachePath": "2F/{2F0F4785-CCA7-D7C6-CEFE-E503F645EC35}.wem"
+     },
+     {
+      "Id": "1069472407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Gem Head\\Gem_Breaking_Head-05.wav",
+      "CachePath": "AB/{AB583FA4-9F4F-9CE1-17B7-2C7781303879}.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "57620421",
+       "Name": "Silence",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Gem Drop\\Silence\\Silence",
+       "GUID": "{A4A2A7B6-125E-44F6-B980-054ED127AEE6}",
+       "LibName": "Wwise Silence",
+       "LibId": "6619138"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "2390793602",
       "Name": "Fire_IceGem_Player",
       "ObjectPath": "\\Events\\Default Work Unit\\Fire_IceGem_Player",
-      "GUID": "{91B6641D-B438-40E2-8E9E-168188CB5015}",
+      "GUID": "{FCBFBFE2-F55E-4CE3-87E4-E3807B1739CE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.5916875",
-      "DurationMax": "0.5916875",
+      "DurationMin": "2.2543564",
+      "DurationMax": "2.4972715",
       "MediaRefs": [
        {
-        "Id": "433698526"
+        "Id": "45003790"
+       },
+       {
+        "Id": "192053154"
+       },
+       {
+        "Id": "282680397"
+       },
+       {
+        "Id": "440290561"
+       },
+       {
+        "Id": "562340077"
+       },
+       {
+        "Id": "586468736"
+       },
+       {
+        "Id": "651969852"
+       },
+       {
+        "Id": "678082713"
+       },
+       {
+        "Id": "706829821"
+       },
+       {
+        "Id": "759893261"
+       },
+       {
+        "Id": "799671185"
+       },
+       {
+        "Id": "862955921"
+       },
+       {
+        "Id": "1028070747"
+       },
+       {
+        "Id": "1052085378"
+       },
+       {
+        "Id": "1069472407"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "57620421"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{7656BC7B-4C56-4E15-659A-134131B1CC14}"
+  "FileHash": "{CCA699DA-888E-A46D-520E-A20828167F41}"
  }
 }

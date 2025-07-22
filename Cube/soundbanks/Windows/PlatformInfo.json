@@ -6,11 +6,11 @@
    "Generator": "2024.1.4.8780"
   },
   "RootPaths": {
-   "ProjectRoot": "../../../Wwise Fundamentals/Module 2/Wwise Project Module 2",
-   "SourceFilesRoot": "../../../Wwise Fundamentals/Module 2/Wwise Project Module 2/.cache",
+   "ProjectRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3",
+   "SourceFilesRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "../../../Wwise Fundamentals/Module 2/Wwise Project Module 2/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/GeneratedSoundBanks/Windows"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{114184A4-53EF-C5B4-33DA-DF3195914EB3}"
+  "FileHash": "{8454B035-2B00-9ED8-E9A6-94C7D2A1E7A6}"
  }
 }

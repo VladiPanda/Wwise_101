@@ -1,16 +1,16 @@
 {
  "PlatformInfo": {
   "Platform": {
-   "Name": "Windows",
-   "BasePlatform": "Windows",
+   "Name": "Mac",
+   "BasePlatform": "Mac",
    "Generator": "2024.1.4.8780"
   },
   "RootPaths": {
-   "ProjectRoot": "../../../../../Wwise Fundamentals/Module 3/Wwise Project Module 3",
-   "SourceFilesRoot": "../../../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/.cache",
+   "ProjectRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3",
+   "SourceFilesRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/.cache",
    "SoundBanksRoot": ".",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "../../../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/GeneratedSoundBanks/Windows"
+   "ExternalSourcesOutputRoot": "../../../Wwise Fundamentals/Module 3/Wwise Project Module 3/GeneratedSoundBanks/Mac"
   },
   "DefaultAlign": "16",
   "Settings": {
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{A3503423-3276-7736-6AA8-34ADC5FFD471}"
+  "FileHash": "{5B38595F-C860-92D9-D7E7-AD2521867252}"
  }
 }
